@@ -1,0 +1,62 @@
+html, body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-attachment: fixed;
+    background-image: url("desk.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.header > img {
+    padding: 20px;
+    width: 20%;
+}
+
+.header > h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding: 250px 100px 0 100px;
+    text-align: center;
+}
+
+.introduction {
+    padding: 50px 100px;
+}
+
+.introduction > h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 15px 0;
+}
+
+.introduction > p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding-bottom: 15px
+}
+
+.services {
+    padding: 0 100px 50px 100px;
+}
+
+.services > h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 15px 0;
+}
+
+.services > p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding-bottom: 15px
+}

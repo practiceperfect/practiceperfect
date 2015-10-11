@@ -4,7 +4,7 @@ This is the site/landing page for Practice Perfect, a Sydney-based accountant pr
 
 ## Tech Stack
 
-This site is deployed using GH-pages, using SASS, React and vanilla JavaScript/jQuery on the frontend.
+This site is deployed using GH-pages, using vanilla JavaScript/jQuery on the frontend.
 
 ## Project status
 
