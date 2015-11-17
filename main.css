@@ -27,14 +27,18 @@ body {
     text-align: center;
 }
 
+.maree {
+    padding: 100px 100px;
+}
+
 .introduction {
     padding: 50px 100px;
 }
 
 .introduction > h2 {
-    font-size: 24px;
+    font-size: 26px;
     letter-spacing: 2px;
-    padding: 15px 0;
+    padding: 15px 0 20px 0;
 }
 
 .introduction > p {
@@ -44,14 +48,36 @@ body {
     padding-bottom: 15px
 }
 
+.introduction > img {
+    float: right;
+    margin: 10px 0 50px 30px;
+}
+
 .services {
-    padding: 0 100px 50px 100px;
+    padding: 50px 100px;
+}
+
+.service-icons {
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    margin: 50px 100px;
+    max-width: 150px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.service > img {
+    height: 100px;
+    width: 100px;
 }
 
 .services > h2 {
-    font-size: 24px;
+    font-size: 26px;
     letter-spacing: 2px;
-    padding: 15px 0;
+    padding: 15px 0 20px 0;
 }
 
 .services > p {
@@ -59,4 +85,63 @@ body {
     letter-spacing: 1px;
     line-height: 1.5;
     padding-bottom: 15px
+    /*text-align: left;*/
+}
+
+.contact {
+    padding: 50px 100px;
+}
+
+.contact > h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 15px 0 20px 0;
+}
+
+.contact input, .contact textarea {
+    display: block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.contact input[type="text"], .contact textarea {
+    width: 800px;
+}
+
+.contact textarea {
+    height: 300px;
+}
+
+.contact input[type="submit"] {
+    background-color: #8BB2CE;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+
+.contact label {
+    display: inline-block;
+}
+
+@media (max-width: 800px) {
+
+    .contact input[type="text"], .contact textarea {
+        width: 500px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .contact input[type="text"], .contact textarea {
+        width: 250px;
+    }
 }
